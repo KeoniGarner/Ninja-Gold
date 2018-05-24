@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 970px;
+}
+
+body form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body .option {
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body .option input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    box-shadow: 1px 1px 2px black;
+    background-color: green;
+    color: white;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+body #activities {
+    width: 100%;
+    padding-top: 50px;
+}
+
+body #activities textarea {
+    width: 98%;
+    text-align: center;
+    resize: none;
+    height: 300px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
